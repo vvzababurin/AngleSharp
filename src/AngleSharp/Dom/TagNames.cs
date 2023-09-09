@@ -799,17 +799,20 @@ namespace AngleSharp.Dom
 
         internal static readonly HashSet<String> AllHead = new ()
         {
-            Style, Link, Meta, Title, NoFrames, Template, Base, BaseFont, Bgsound
+            //Style, Link, Meta, Title, NoFrames, Template, Base, BaseFont, Bgsound
+            Style, Meta, Title, NoFrames, Template, Base, BaseFont, Bgsound
         };
 
         internal static readonly HashSet<String> AllHeadNoTemplate = new ()
         {
-            Link, Meta, Script, Style, Title, Base, BaseFont, Bgsound, NoFrames
+            //Link, Meta, Script, Style, Title, Base, BaseFont, Bgsound, NoFrames
+            Meta, Script, Style, Title, Base, BaseFont, Bgsound, NoFrames
         };
 
         internal static readonly HashSet<String> AllHeadBase = new ()
         {
-            Link, Base, BaseFont, Bgsound
+            //Link, Base, BaseFont, Bgsound
+            Base, BaseFont, Bgsound
         };
 
         internal static readonly HashSet<String> AllBodyBreakrow = new ()
@@ -824,7 +827,8 @@ namespace AngleSharp.Dom
 
         internal static readonly HashSet<String> AllNoScript = new ()
         {
-            Style, Link, BaseFont, Meta, NoFrames, Bgsound
+            //Style, Link, BaseFont, Meta, NoFrames, Bgsound
+            Style, BaseFont, Meta, NoFrames, Bgsound
         };
 
         internal static readonly HashSet<String> AllHeadings = new ()
