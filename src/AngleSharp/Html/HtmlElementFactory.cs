@@ -166,14 +166,8 @@ namespace AngleSharp.Html
             if (creators.TryGetValue(localName, out var creator))
             {
                 return creator.Invoke(document, prefix);
-/*
-                if (e.LocalName == TagNames.Link)
-                {
-                    if (e.IsLink()) return e;
-                    return new HtmlUnknownElement(document, TagNames.Link, prefix, flags | NodeFlags.Special );
-                }
-*/
             }
+
             return new HtmlUnknownElement(document, localName.HtmlLower(), prefix, flags);
         }
     }
