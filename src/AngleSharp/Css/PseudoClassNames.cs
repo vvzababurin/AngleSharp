@@ -57,10 +57,10 @@ namespace AngleSharp.Css
         /// </summary>
         public static readonly String AnyLink = "any-link";
 
-        // <summary>
-        // The link pseudo class.
-        // </summary>
-        // public static readonly String Link = "link";
+        /// <summary>
+        /// The link pseudo class.
+        /// </summary>
+        public static readonly String Link = "link";
 
         /// <summary>
         /// The visited pseudo class.

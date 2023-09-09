@@ -24,7 +24,7 @@ namespace AngleSharp.Css
             { PseudoClassNames.LastChild, new PseudoClassSelector(el => el.IsLastChild(), PseudoClassNames.LastChild) },
             { PseudoClassNames.Empty, new PseudoClassSelector(el => el.ChildElementCount == 0 && el.TextContent.Is(String.Empty), PseudoClassNames.Empty) },
             { PseudoClassNames.AnyLink, new PseudoClassSelector(el => el.IsLink() || el.IsVisited(), PseudoClassNames.AnyLink) },
-//            { PseudoClassNames.Link, new PseudoClassSelector(el => el.IsLink(), PseudoClassNames.Link) },
+            { PseudoClassNames.Link, new PseudoClassSelector(el => el.IsLink(), PseudoClassNames.Link) },
             { PseudoClassNames.Visited, new PseudoClassSelector(el => el.IsVisited(), PseudoClassNames.Visited) },
             { PseudoClassNames.Active, new PseudoClassSelector(el => el.IsActive(), PseudoClassNames.Active) },
             { PseudoClassNames.Hover, new PseudoClassSelector(el => el.IsHovered(), PseudoClassNames.Hover) },

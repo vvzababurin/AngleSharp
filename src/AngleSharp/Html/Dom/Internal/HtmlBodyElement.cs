@@ -113,11 +113,11 @@ namespace AngleSharp.Html.Dom
             set => this.SetOwnAttribute(AttributeNames.BgColor, value);
         }
 
- //       public String? Link
- //       {
- //           get => this.GetOwnAttribute(AttributeNames.Link);
- //           set => this.SetOwnAttribute(AttributeNames.Link, value);
- //       }
+        public String? Link
+        {
+            get => this.GetOwnAttribute(AttributeNames.Link);
+            set => this.SetOwnAttribute(AttributeNames.Link, value);
+        }
 
         public String? Text
         {
