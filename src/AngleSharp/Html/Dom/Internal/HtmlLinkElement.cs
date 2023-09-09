@@ -21,7 +21,7 @@ namespace AngleSharp.Html.Dom
         #region ctor
 
         public HtmlLinkElement(Document owner, String? prefix = null)
-            : base(owner, TagNames.Link, prefix, NodeFlags.Special | NodeFlags.SelfClosing)
+            : base(owner, TagNames.Link, prefix, NodeFlags.Special)
         {
         }
 
@@ -44,6 +44,15 @@ namespace AngleSharp.Html.Dom
         #endregion
 
         #region Properties
+
+        /// <summary>
+        /// Gets or sets the text of the title.
+        /// </summary>
+        public String? Text
+        {
+            get => this.GetOwnAttribute(AttributeNames.Text);
+            set => this.SetOwnAttribute(AttributeNames.Text, value);
+        }
 
         public IDownload? CurrentDownload => _relation?.Processor?.Download;
 

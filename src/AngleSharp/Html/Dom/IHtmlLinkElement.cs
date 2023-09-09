@@ -24,6 +24,12 @@ namespace AngleSharp.Html.Dom
         String? Href { get; set; }
 
         /// <summary>
+        /// Gets or sets the text of the link.
+        /// </summary>
+        [DomName("text")]
+        String? Text { get; set; }
+
+        /// <summary>
         /// Gets or sets the forward relationship of the linked resource from the document to the resource.
         /// </summary>
         [DomName("rel")]
