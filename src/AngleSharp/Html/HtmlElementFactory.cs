@@ -33,7 +33,7 @@ namespace AngleSharp.Html
             { TagNames.Ul, (document, prefix) => new HtmlUnorderedListElement(document, prefix) },
             { TagNames.Ol, (document, prefix) => new HtmlOrderedListElement(document, prefix) },
             { TagNames.Dl, (document, prefix) => new HtmlDefinitionListElement( document, prefix) },
-            { TagNames.Link, (document, prefix) => new HtmlLinkElement(document, prefix) },
+ //           { TagNames.Link, (document, prefix) => new HtmlLinkElement(document, prefix) },
             { TagNames.Meta, (document, prefix) => new HtmlMetaElement(document, prefix) },
             { TagNames.Label, (document, prefix) => new HtmlLabelElement(document, prefix) },
             { TagNames.Fieldset, (document, prefix) => new HtmlFieldSetElement(document, prefix) },

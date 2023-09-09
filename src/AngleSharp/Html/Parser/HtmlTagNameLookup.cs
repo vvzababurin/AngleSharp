@@ -270,8 +270,8 @@ namespace AngleSharp.Html.Parser
                         case 'k':
                             switch (builder[0])
                             {
-                                case 'l':
-                                    return CharsAreEqual(builder, TagNames.Link) ? TagNames.Link : null;
+//                                case 'l':
+//                                    return CharsAreEqual(builder, TagNames.Link) ? TagNames.Link : null;
                                 case 'm':
                                     return CharsAreEqual(builder, TagNames.Mark) ? TagNames.Mark : null;
                                 default:

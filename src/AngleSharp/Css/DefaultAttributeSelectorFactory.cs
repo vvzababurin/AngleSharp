@@ -37,7 +37,7 @@ namespace AngleSharp.Css
             AttributeNames.HttpEquiv,
             AttributeNames.Lang,
             AttributeNames.Language,
-            AttributeNames.Link,
+            //AttributeNames.Link,
             AttributeNames.Media,
             AttributeNames.Method,
             AttributeNames.Multiple,
