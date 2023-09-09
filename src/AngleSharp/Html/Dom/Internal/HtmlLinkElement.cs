@@ -21,7 +21,7 @@ namespace AngleSharp.Html.Dom
         #region ctor
 
         public HtmlLinkElement(Document owner, String? prefix = null)
-            : base(owner, TagNames.Link, prefix, NodeFlags.Special)
+            : base(owner, TagNames.Link, prefix, NodeFlags.Special | NodeFlags.SelfClosing )
         {
         }
 
